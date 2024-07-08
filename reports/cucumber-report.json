@@ -1,0 +1,527 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "site-tracker-assessment;01-login-automation",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "01 Login Automation",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1221037899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Go to the sitetracker website",
+            "match": {
+              "location": "src/steps/sitetracker.steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2866131709
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User enters username as \"qa-auto@sitetracker.com\"",
+            "match": {
+              "location": "src/steps/sitetracker.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2078749193
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "User enters password as \"Test123$\"",
+            "match": {
+              "location": "src/steps/sitetracker.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2044556450
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User click on Log In button",
+            "match": {
+              "location": "src/steps/sitetracker.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2999985047
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User navigates to leads menu",
+            "match": {
+              "location": "src/steps/sitetracker.steps.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11532923223
+            },
+            "embeddings": [
+              {
+                "data": "ZW1wQXBpIHNldHRpbmcgaW5pdGlhbGl6ZWQgdHJ1ZSBmb3IgOiB1bmRlZmluZWQ=",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "e0luc3RydW1lbnRhdGlvblJlc3VsdCA6ICAoIFJFQ0VJVkVEID0gMjYgLCBTVUNDRVNTIC0+IExPRyA9IDI2ICwgVG9waWMgPSBBSUxUTiApICAsIFRlbGVtZXRyeVJlc3BvbnNlIDogKCBBc3luY1Jlc3VsdHMgKU8xMXlJbnN0cnVtZW50YXRpb25SZXN1bHQgOiBPMTF5IExvZ3Mgc3VjY2Vzc2Z1bGx5IHByb2Nlc3NlZCBieSBpbnN0cnVtZW50YXRpb24tcHJvY2Vzc2luZzogT2JqZWN0fQ==",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "e0luc3RydW1lbnRhdGlvblJlc3VsdCA6ICAoIFJFQ0VJVkVEID0gNyAsIFNVQ0NFU1MgLT4gTE9HID0gNyAsIFRvcGljID0gQUlMVE4gKSAgLCBUZWxlbWV0cnlSZXNwb25zZSA6ICggQXN5bmNSZXN1bHRzIClPMTF5SW5zdHJ1bWVudGF0aW9uUmVzdWx0IDogTzExeSBMb2dzIHN1Y2Nlc3NmdWxseSBwcm9jZXNzZWQgYnkgaW5zdHJ1bWVudGF0aW9uLXByb2Nlc3Npbmc6IE9iamVjdH0=",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User selects the My Leads view",
+            "match": {
+              "location": "src/steps/sitetracker.steps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8793935830
+            },
+            "embeddings": [
+              {
+                "data": "ZW1wQXBpIHNldHRpbmcgaW5pdGlhbGl6ZWQgdHJ1ZSBmb3IgOiB1bmRlZmluZWQ=",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "e0luc3RydW1lbnRhdGlvblJlc3VsdCA6ICAoIFJFQ0VJVkVEID0gMzUgLCBTVUNDRVNTIC0+IExPRyA9IDM1ICwgVG9waWMgPSBBSUxUTiApICAsIFRlbGVtZXRyeVJlc3BvbnNlIDogKCBBc3luY1Jlc3VsdHMgKU8xMXlJbnN0cnVtZW50YXRpb25SZXN1bHQgOiBPMTF5IExvZ3Mgc3VjY2Vzc2Z1bGx5IHByb2Nlc3NlZCBieSBpbnN0cnVtZW50YXRpb24tcHJvY2Vzc2luZzogT2JqZWN0fQ==",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "e0luc3RydW1lbnRhdGlvblJlc3VsdCA6ICAoIFJFQ0VJVkVEID0gMTQgLCBTVUNDRVNTIC0+IExPRyA9IDE0ICwgVG9waWMgPSBBSUxUTiApICAsIFRlbGVtZXRyeVJlc3BvbnNlIDogKCBBc3luY1Jlc3VsdHMgKU8xMXlJbnN0cnVtZW50YXRpb25SZXN1bHQgOiBPMTF5IExvZ3Mgc3VjY2Vzc2Z1bGx5IHByb2Nlc3NlZCBieSBpbnN0cnVtZW50YXRpb24tcHJvY2Vzc2luZzogT2JqZWN0fQ==",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User click on filter icon",
+            "match": {
+              "location": "src/steps/sitetracker.steps.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2229156179
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "User selects the custom date range \"greater than\" \"1/1/2024\"",
+            "match": {
+              "location": "src/steps/sitetracker.steps.ts:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22094714478
+            },
+            "embeddings": [
+              {
+                "data": "e0luc3RydW1lbnRhdGlvblJlc3VsdCA6ICAoIFJFQ0VJVkVEID0gOSAsIFNVQ0NFU1MgLT4gTE9HID0gOSAsIFRvcGljID0gQUlMVE4gKSAgLCBUZWxlbWV0cnlSZXNwb25zZSA6ICggQXN5bmNSZXN1bHRzIClPMTF5SW5zdHJ1bWVudGF0aW9uUmVzdWx0IDogTzExeSBMb2dzIHN1Y2Nlc3NmdWxseSBwcm9jZXNzZWQgYnkgaW5zdHJ1bWVudGF0aW9uLXByb2Nlc3Npbmc6IE9iamVjdH0=",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "User save filter",
+            "match": {
+              "location": "src/steps/sitetracker.steps.ts:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2252705729
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "User verify the success msg pop up displayed",
+            "match": {
+              "location": "src/steps/sitetracker.steps.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4001445880
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the filter count is \"22\"",
+            "match": {
+              "location": "src/steps/sitetracker.steps.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58525909
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "User search for \"Betty Bair\" and navigate to profile",
+            "match": {
+              "location": "src/steps/sitetracker.steps.ts:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6427237049
+            },
+            "embeddings": [
+              {
+                "data": "e0luc3RydW1lbnRhdGlvblJlc3VsdCA6ICAoIFJFQ0VJVkVEID0gMjUgLCBTVUNDRVNTIC0+IExPRyA9IDI1ICwgU1VDQ0VTUyAtPiBDRSA9IDEgLCBUb3BpYyA9IEFJTFROICkgICwgVGVsZW1ldHJ5UmVzcG9uc2UgOiAoIEFzeW5jUmVzdWx0cyApTzExeUluc3RydW1lbnRhdGlvblJlc3VsdCA6IE8xMXkgTG9ncyBzdWNjZXNzZnVsbHkgcHJvY2Vzc2VkIGJ5IGluc3RydW1lbnRhdGlvbi1wcm9jZXNzaW5nOiBPYmplY3R9",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "User navigate to activity tab",
+            "match": {
+              "location": "src/steps/sitetracker.steps.ts:109"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2115625765
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Subject",
+                      "DueDate",
+                      "RelatedTo",
+                      "AssignedTo",
+                      "Status"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Create Budget Plan",
+                      "Today",
+                      "",
+                      "",
+                      "In Progress"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Submit Budget Plan for Review",
+                      "After 1 week",
+                      "",
+                      "",
+                      "Not Started"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "User creates below tasks and verify confirmation message",
+            "match": {
+              "location": "src/steps/sitetracker.steps.ts:84"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30329014203
+            },
+            "embeddings": [
+              {
+                "data": "e0luc3RydW1lbnRhdGlvblJlc3VsdCA6ICAoIFJFQ0VJVkVEID0gMTIgLCBTVUNDRVNTIC0+IExPRyA9IDEyICwgVG9waWMgPSBBSUxUTiApICAsIFRlbGVtZXRyeVJlc3BvbnNlIDogKCBBc3luY1Jlc3VsdHMgKU8xMXlJbnN0cnVtZW50YXRpb25SZXN1bHQgOiBPMTF5IExvZ3Mgc3VjY2Vzc2Z1bGx5IHByb2Nlc3NlZCBieSBpbnN0cnVtZW50YXRpb24tcHJvY2Vzc2luZzogT2JqZWN0fQ==",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "e0luc3RydW1lbnRhdGlvblJlc3VsdCA6ICAoIFJFQ0VJVkVEID0gMTEgLCBTVUNDRVNTIC0+IExPRyA9IDExICwgVG9waWMgPSBBSUxUTiApICAsIFRlbGVtZXRyeVJlc3BvbnNlIDogKCBBc3luY1Jlc3VsdHMgKU8xMXlJbnN0cnVtZW50YXRpb25SZXN1bHQgOiBPMTF5IExvZ3Mgc3VjY2Vzc2Z1bGx5IHByb2Nlc3NlZCBieSBpbnN0cnVtZW50YXRpb24tcHJvY2Vzc2luZzogT2JqZWN0fQ==",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Subject"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Create Budget Plan"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Submit Budget Plan for Review"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 24,
+            "name": "User verifies the tasks are displayed under Activity tab",
+            "match": {
+              "location": "src/steps/sitetracker.steps.ts:165"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 92342977
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "User expands the \"Create Budget Plan\" tasks",
+            "match": {
+              "location": "src/steps/sitetracker.steps.ts:132"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2152617036
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "User verify the description is \"\"",
+            "match": {
+              "location": "src/steps/sitetracker.steps.ts:124"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41004142
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "User selects Edit Comments from the dropdown",
+            "match": {
+              "location": "src/steps/sitetracker.steps.ts:154"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4375566855
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "User adds the comment as \"Budget for Q4\"",
+            "match": {
+              "location": "src/steps/sitetracker.steps.ts:148"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4374929008
+            },
+            "embeddings": [
+              {
+                "data": "e0luc3RydW1lbnRhdGlvblJlc3VsdCA6ICAoIFJFQ0VJVkVEID0gMTQgLCBTVUNDRVNTIC0+IExPRyA9IDE0ICwgVG9waWMgPSBBSUxUTiApICAsIFRlbGVtZXRyeVJlc3BvbnNlIDogKCBBc3luY1Jlc3VsdHMgKU8xMXlJbnN0cnVtZW50YXRpb25SZXN1bHQgOiBPMTF5IExvZ3Mgc3VjY2Vzc2Z1bGx5IHByb2Nlc3NlZCBieSBpbnN0cnVtZW50YXRpb24tcHJvY2Vzc2luZzogT2JqZWN0fQ==",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "User expands the \"Create Budget Plan\" tasks",
+            "match": {
+              "location": "src/steps/sitetracker.steps.ts:132"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2249993572
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "User verify the description is \"Budget for Q4\"",
+            "match": {
+              "location": "src/steps/sitetracker.steps.ts:124"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40602482
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "User Click on the gear icon next to Filters",
+            "match": {
+              "location": "src/steps/sitetracker.steps.ts:194"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2226698956
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "set the date range to the next 7 days then apply",
+            "match": {
+              "location": "src/steps/sitetracker.steps.ts:186"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4358158097
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Subject"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Create Budget Plan"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "User verifies the tasks are displayed under Activity tab",
+            "match": {
+              "location": "src/steps/sitetracker.steps.ts:165"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48162546
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "user click on Show All Activities",
+            "match": {
+              "location": "src/steps/sitetracker.steps.ts:181"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2133204916
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Subject"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Create Budget Plan"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Submit Budget Plan for Review"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 41,
+            "name": "User verifies the tasks are displayed under Activity tab",
+            "match": {
+              "location": "src/steps/sitetracker.steps.ts:165"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 146210141
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 229078
+            },
+            "embeddings": [
+              {
+                "data": "U3RhdHVzOiBQQVNTRUQuIER1cmF0aW9uOjFz",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "site-tracker-assessment",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Site tracker assessment",
+    "tags": [],
+    "uri": "features/SiteTracker.feature"
+  }
+]
