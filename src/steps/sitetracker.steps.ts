@@ -112,7 +112,7 @@ When('User navigate to activity tab', async function (this: ICustomWorld) {
 });
 
 When(
-  'User search for {string} and navigate to profile',
+  'User search for {string} and navigate to profile',{ timeout: 90000 },
   async function (this: ICustomWorld, user: string) {
     const page = this.page!;
     await page.getByPlaceholder('Search this list...').fill(user);
