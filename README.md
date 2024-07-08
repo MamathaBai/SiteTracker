@@ -25,6 +25,13 @@ Some of the features provided by PW test are also available in cucumber-js, such
 
 Create a repo based on this template and start writing your tests.
 
+## Env setup
+
+Update to latest version of node and run below commands
+`brew install node@20`
+`npm i`
+`npx playwright install`
+
 ## To run your tests
 
 `npm run test` or `npx cucumber-js` runs all tests
